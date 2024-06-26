@@ -1,19 +1,19 @@
-// Select button
+// Botão Select
 var button = document.getElementById('read_button');
 
-// Click Event
+// Evento Clique
 button.addEventListener('click', function() {
-    // Select card
+    // Card Select
     var card = document.querySelector('.card');
 
-    // Add/Remove Class Active
+    // Add/Remove Classe Activa
     card.classList.toggle('active');
 
     if (card.classList.contains('active')) {
-        // Change button text if has class active
+        // Carregar texto no button se esta classe estiver ativa
         return button.textContent = 'Read less';
     }
     
-    // Change button text if hasn't class active
+    // Carregar texto no button se esta classe não estiver ativa
     button.textContent = 'Read more';
 });
