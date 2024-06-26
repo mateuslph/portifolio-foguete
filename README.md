@@ -28,6 +28,7 @@ Responsividade | Media Queries
 ### :+1: Apresentação nas seguintes Print Screens:
 
 ![](https://github.com/mateuslph/portifolio-foguete/blob/main/assets/images/portifolio-foguete-01.png)
-</br>
-</br>
+</br></br>
 ![](https://github.com/mateuslph/portifolio-foguete/blob/main/assets/images/portifolio-foguete-02.png)
+</br></br>
+### Acesse o [site]() para saber mais...
