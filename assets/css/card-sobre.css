@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-sobre {
+    display: block;
+    padding: 60px;
+}
+
+.card-sobre div {
+    padding: 40px;
+    margin-top: 50px;
+    border: 5px solid #00ffff7f;
+    border-radius: 40px;
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.card-sobre li a {
+    text-decoration: none;
+}
+
+/* link que ainda não foi visitado */
+.card-sobre li a {
+    color: red;
+ }
+ 
+ /* link que foi visitado */
+.card-sobre li a:visited {
+     color: green;
+ }
+ 
+ /* mouse over */
+.card-sobre li a:hover {
+     color:#7f37c9;
+ }
+
+h2 {
+    margin-bottom: 30px;
+}

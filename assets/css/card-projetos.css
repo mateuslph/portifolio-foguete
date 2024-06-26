@@ -1,0 +1,13 @@
+.card-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-projetos p {
+    font-weight: bold;
+    color: #7f37c9;
+    border: 5px solid #00ffff7f;
+    width: max-content;
+    padding: 20px;
+}

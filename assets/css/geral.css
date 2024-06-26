@@ -1,0 +1,16 @@
+/** General **/
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url("../images/background-blue-color-square.jpg");
+    background-attachment: fixed;
+}
+
+.card-conteudo {    
+    min-height: 100vh;
+}
