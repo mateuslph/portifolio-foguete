@@ -12,7 +12,7 @@
     padding: 60px;
 }
 
-.card-sobre div {
+.card-sobre>div {
     padding: 40px;
     margin-top: 50px;
     border: 5px solid #00ffff7f;
@@ -31,18 +31,35 @@ p {
 /* link que ainda não foi visitado */
 .card-sobre li a {
     color: red;
- }
- 
- /* link que foi visitado */
+}
+
+/* link que foi visitado */
 .card-sobre li a:visited {
-     color: green;
- }
- 
- /* mouse over */
+    color: green;
+}
+
+/* mouse over */
 .card-sobre li a:hover {
-     color:#7f37c9;
- }
+    color: #7f37c9;
+}
 
 h2 {
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-sobre div {
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .descktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .mobile {
+        display: none;
+    }
 }
