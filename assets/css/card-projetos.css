@@ -1,3 +1,4 @@
+/* indica secao em desenvolvimento
 .card-projetos {
     display: flex;
     justify-content: center;
@@ -10,4 +11,41 @@
     border: 5px solid #00ffff7f;
     width: max-content;
     padding: 20px;
+}
+*/
+
+.card-projetos img {
+    height: 286px;
+}
+
+.container-projetos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.card-projetos {
+    width: 18rem;
+}
+
+.card-projetos:hover {
+    border: 1px solid #4F46E5;
+    box-shadow: #4F46E5 5px 5px 4px 0px;
+}
+
+.card-body p {
+    width: 90%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .container-projetos {
+        display: flex;
+    }
 }

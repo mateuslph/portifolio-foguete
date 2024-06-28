@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/geral.css">
     <link rel="stylesheet" href="assets/css/card-projetos.css">
@@ -51,12 +54,33 @@
             </div>
         </div>
     </header>
+    <script src="assets/js/nav.js"></script>
 
+    <section class="conteudo">
+        <h2 class="titulo-principal">Projetos</h2>
+        <div class="container-projetos">
+            <div class="card-projetos card">
+                <img src="./assets/images/screencapture-aluratube.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AluraTube</h5>
+                  <span class="badge text-bg-primary">React</span>
+                  <span class="badge text-bg-danger">Html</span>
+                  <span class="badge text-white text-bg-info">CSS</span>
+                  <p class="card-text">Simula uma pagina do YouTube, sendo possível adicionar seus filmes favoritos. Porém os dados não ficam salvos devido a característica do React</p>
+                  <a href="https://aluratube-tan-five.vercel.app/" target="_blank" class="btn btn-dark btn-lg"><i class="fa fa-globe fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="https://github.com/mateuslph/aluratube" target="_blank" class="btn btn-dark btn-lg"><i class="fa fa-github fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- indica secao em desenvolvimento
     <section>
         <div class="card-projetos card-conteudo">
             <p>Em desenvolvimento... Em breve mais soluções!</p>
         </div>
     </section>
+    -->
 
     <footer>
         <div id="footer_content">
@@ -131,7 +155,6 @@
             2023 all rights reserved
         </div>
     </footer>
-    <script src="assets/js/nav.js"></script>
 </body>
 
 </html>

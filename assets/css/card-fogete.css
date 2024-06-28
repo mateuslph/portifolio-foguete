@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.card-foguete {
+.container-foguete {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 
 
 
-.card {
+.card-foguete {
     display: flex;
     margin: 0 20px;
     justify-content: center;
@@ -28,11 +28,11 @@
     transition: 0.5s;
 }
 
-.card:hover {
+.card-foguete:hover {
     height: 400px;
 }
 
-.card .img-box {
+.card-foguete .img-box {
     position: absolute;
     width: 250px;
     height: auto;
@@ -40,18 +40,18 @@
     transition: 0.5s;
 }
 
-.card:hover .img-box {
+.card-foguete:hover .img-box {
     top: -100px;
     scale: 0.75;
 }
 
-.card .img-box img {
+.card-foguete .img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.card .content {
+.card-foguete .content {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -65,12 +65,12 @@
     transition: 0.5s;
 }
 
-.card:hover .content {
+.card-foguete:hover .content {
     top: 130px;
     height: 250px;
 }
 
-.card .read-more {
+.card-foguete .read-more {
    background: linear-gradient(90deg, #3730a3, #7e22ce);
    padding: 12px;
    color: #fff;
@@ -79,12 +79,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .card-foguete {
+    .container-foguete {
         display: grid;
         padding: 20px 0;
     }
 
-    .card {        
+    .card-foguete {        
         margin-top: 30px;
     }
 }
